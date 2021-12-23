@@ -125,8 +125,14 @@ h1 strong{
 #attribution{
     color: white;
     position: absolute;
+    font-size: 0.8em;
     left: 10px;
     bottom: 1px;
+}
+
+#attribution a{
+    color: var(--color-accent);
+    text-decoration: none;
 }
 
 @media screen and (min-width: 345px){
